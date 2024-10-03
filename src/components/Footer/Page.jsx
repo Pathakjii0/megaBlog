@@ -6,14 +6,14 @@ function Page() {
 let id=useParams().id;
 
   return (
-    <div className=' min-h-screen  bg-green-200'>
+    <div className=' min-h-screen  bg-white-500'>
         <Logo/>
         {
             data.map((ele)=>(
                 ele.id==id?(
-                <div className="w-full p-5" key={ele.title}>
-                   <h1 className='text-center text-5xl my-[100px] font-bold text-blue-500'>{ele.title}</h1>
-                   <div className="w-[50%] mx-auto text-3xl  p-5">{ele.content}</div>
+                <div className="w-full grid grid-rows-2 " key={ele.title}>
+                   <h1 className='text-center text-5xl my-auto font-bold text-blue-800'>{ele.title}</h1>
+                   <div className=" text-2xl md:mx-auto md:text-3xl text-center">{ele.content}</div>
 
                 </div>):null
             ))

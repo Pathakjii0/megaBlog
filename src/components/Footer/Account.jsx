@@ -9,12 +9,14 @@ function Account() {
     ">
         <div className='w-[50%] h-[100%] bg-black/20 flex flex-col justify-around'>
         <img src=" https://avatars.githubusercontent.com/u/175542759?v=4" alt="image" 
-        className='mx-auto mt-7 w-40 rounded-full'/>
-        <div className='mx-auto'>
+        className='mx-auto  w-40 rounded-full'/>
+        <div className='w-full flex flex-col justify-center text-center'>
             <h1 className='font-bold text-3xl text-center '>Ankur Pathak</h1>
-            <p className='mt-6 text-2xl font-thin'>This is my Personal Page</p>
+            <p className=' mt-2 text-2xl  font-thin'>Front-End Developer</p>
         </div>
-        <p className='ml-10 text-gray-900'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ducimus minus in enim quae velit repellat voluptatem maxime voluptas unde magnam nulla beatae ut exercitationem at nesciunt, recusandae repellendus earum.</p>
+        <p className='md:text-center text:[8px] md:text-[15px] text-white'>Hi, I'm Ankur Pathak, a website creator with a passion for building innovative and 
+          user-friendly online experiences. This Blog website is created by me as a practice. If you have any Query related to this website, 
+          I'd love to hear from you. Please feel free to contact me on  pathakank457@gmail.com .</p>
         <button className='font-medium text-blue-200 mx-auto bg-black w-40 h-10
          rounded-lg'>Get in touch</button>
         <div className='flex mx-auto gap-5'>
